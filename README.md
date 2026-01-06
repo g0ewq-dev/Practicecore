@@ -1,6 +1,6 @@
 # PracticeCore
 
-Modern PocketMine-MP practice core built for public Bedrock servers. PracticeCore provides duels, parties, bot fights, leaderboards, multiple game modes, and a custom form API — all with a clean, modular, human-written codebase using the latest PocketMine API.
+Modern PocketMine-MP practice core built for public Bedrock servers. PracticeCore provides duels, parties, bot fights, leaderboards, multiple game modes, and a custom form API — using the latest PocketMine API.
 
 ## Features
 
