@@ -7,6 +7,7 @@ commands:
   duel:
     description: Open duel UI or duel a player
     usage: "/duel [player]"
+    permission: practicecore.duel
   party:
     description: Open party menu
     usage: "/party"
@@ -32,3 +33,5 @@ permissions:
     default: op
   practicecore.setarena:
     default: op
+  practicecore.duel:
+    default: true
