@@ -5,7 +5,7 @@ Modern PocketMine-MP practice core built for public Bedrock servers. PracticeCor
 ## Features
 
 * Player duels with multiple modes
-* Party system with party vs party duels
+* Party system with party invites
 * Bot duels with difficulty selection
 * Shared arena system for all duels
 * BedFight and Sumo game modes
@@ -20,11 +20,11 @@ Modern PocketMine-MP practice core built for public Bedrock servers. PracticeCor
 * Sumo
 * NoDebuff
 * Fist Fight
+* BedFight
 
 These modes are supported in:
 
 * Player duels
-* Party duels
 * Bot duels
 
 ## Commands
@@ -41,16 +41,15 @@ These modes are supported in:
 
 ### Arena Setup
 
-* `/setarena <mode>` – Set duel arena for a mode
-* `/setarena bedfight`
-* `/setarena sumo`
+* `/setarena <mode> <1|2>` – Set duel arena spawns
+* `/setarena bedfight 1`
+* `/setarena sumo 2`
 
 ## Party System
 
-* Create public or private parties
-* Invite players to private parties
-* Party vs party duels
-* Mode selection for party duels
+* Create parties
+* Invite players to parties
+* Join via invite
 
 ## Leaderboards
 
