@@ -1,0 +1,34 @@
+name: PracticeCore
+main: PracticeCore\PracticeCore
+version: 1.0.0
+api: 5.0.0
+author: zqxhyt
+commands:
+  duel:
+    description: Open duel UI or duel a player
+    usage: "/duel [player]"
+  party:
+    description: Open party menu
+    usage: "/party"
+  botduel:
+    description: Open bot duel menu
+    usage: "/botduel"
+  leaderboard:
+    description: View top 10 stats
+    usage: "/leaderboard"
+  sethub:
+    description: Set hub location
+    usage: "/sethub"
+    permission: practicecore.sethub
+  hub:
+    description: Teleport to hub
+    usage: "/hub"
+  setarena:
+    description: Set duel arena spawn point
+    usage: "/setarena <mode> <1|2>"
+    permission: practicecore.setarena
+permissions:
+  practicecore.sethub:
+    default: op
+  practicecore.setarena:
+    default: op
