@@ -11,12 +11,15 @@ commands:
   party:
     description: Open party menu
     usage: "/party"
+    permission: practicecore.party
   botduel:
     description: Open bot duel menu
     usage: "/botduel"
+    permission: practicecore.botduel
   leaderboard:
     description: View top 10 stats
     usage: "/leaderboard"
+    permission: practicecore.leaderboard
   sethub:
     description: Set hub location
     usage: "/sethub"
@@ -24,6 +27,7 @@ commands:
   hub:
     description: Teleport to hub
     usage: "/hub"
+    permission: practicecore.hub
   setarena:
     description: Set duel arena spawn point
     usage: "/setarena <mode> <1|2>"
@@ -34,4 +38,12 @@ permissions:
   practicecore.setarena:
     default: op
   practicecore.duel:
+    default: true
+  practicecore.party:
+    default: true
+  practicecore.botduel:
+    default: true
+  practicecore.leaderboard:
+    default: true
+  practicecore.hub:
     default: true
