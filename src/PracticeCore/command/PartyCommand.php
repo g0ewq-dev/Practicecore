@@ -16,6 +16,7 @@ final class PartyCommand extends Command
     public function __construct(private readonly PracticeCore $plugin)
     {
         parent::__construct("party", "Open party menu", "/party");
+        $this->setPermission("practicecore.command.party");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): bool
