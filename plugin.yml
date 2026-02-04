@@ -36,7 +36,7 @@ permissions:
   practicecore.command.duel:
     default: true
   practicecore.command.party:
-    default: true
+    default: "true"
   practicecore.command.botduel:
     default: true
   practicecore.command.leaderboard:
