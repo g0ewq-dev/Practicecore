@@ -14,7 +14,7 @@ final class SetArenaCommand extends Command
     public function __construct(private readonly PracticeCore $plugin)
     {
         parent::__construct("setarena", "Set duel arena spawn point", "/setarena <mode> <1|2>");
-        $this->setPermission("practicecore.setarena");
+        $this->setPermission("practicecore.command.setarena");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): bool

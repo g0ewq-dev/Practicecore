@@ -23,7 +23,7 @@ commands:
   sethub:
     description: Set hub location
     usage: "/sethub"
-    permission: practicecore.sethub
+    permission: practicecore.command.sethub
   hub:
     description: Teleport to hub
     usage: "/hub"
@@ -31,19 +31,19 @@ commands:
   setarena:
     description: Set duel arena spawn point
     usage: "/setarena <mode> <1|2>"
-    permission: practicecore.setarena
+    permission: practicecore.command.setarena
 permissions:
   practicecore.command.duel:
     default: true
   practicecore.command.party:
-    default: "true"
+    default: true
   practicecore.command.botduel:
     default: true
   practicecore.command.leaderboard:
     default: true
   practicecore.command.hub:
     default: true
-  practicecore.sethub:
+  practicecore.command.sethub:
     default: op
-  practicecore.setarena:
+  practicecore.command.setarena:
     default: op

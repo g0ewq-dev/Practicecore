@@ -17,6 +17,7 @@ final class LeaderboardCommand extends Command
     public function __construct(private readonly PracticeCore $plugin)
     {
         parent::__construct("leaderboard", "View top 10 stats", "/leaderboard");
+        $this->setPermission("practicecore.command.leaderboard");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): bool

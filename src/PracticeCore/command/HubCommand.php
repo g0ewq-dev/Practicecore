@@ -15,6 +15,7 @@ final class HubCommand extends Command
     public function __construct(private readonly PracticeCore $plugin)
     {
         parent::__construct("hub", "Teleport to hub", "/hub");
+        $this->setPermission("practicecore.command.hub");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): bool

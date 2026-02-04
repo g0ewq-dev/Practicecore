@@ -18,6 +18,7 @@ final class BotDuelCommand extends Command
     public function __construct(private readonly PracticeCore $plugin)
     {
         parent::__construct("botduel", "Open bot duel menu", "/botduel");
+        $this->setPermission("practicecore.command.botduel");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): bool

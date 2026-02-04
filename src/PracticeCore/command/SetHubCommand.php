@@ -14,7 +14,7 @@ final class SetHubCommand extends Command
     public function __construct(private readonly PracticeCore $plugin)
     {
         parent::__construct("sethub", "Set hub location", "/sethub");
-        $this->setPermission("practicecore.sethub");
+        $this->setPermission("practicecore.command.sethub");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): bool
